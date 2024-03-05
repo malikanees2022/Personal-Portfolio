@@ -12,7 +12,7 @@ export const data=[
         image:Image1,
         title:"Project Title one (UIUX)",
         desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget nulla vestibulum, etiam auctor mauris. Suspendisse tristique orci euismod facilisis.",
-        demo:"www.google.com",
+        demo:"www.instagram.com",
         github:"www.github.com"
     },
     {
