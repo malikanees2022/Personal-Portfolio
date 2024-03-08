@@ -1,10 +1,11 @@
-export const data=[
-    { id:1, title:"How much do you usually charge for a website?", description:"Testimonials are valuable because they provide social proof and reassurance to others who are considering engaging with the same product, service, or event."},
-    { id:2, title:"How long does a project take to complete?", description:"Testimonials are valuable because they provide social proof and reassurance to others who are considering engaging with the same product, service, or event."},
-    { id:3, title:"Do you have team or work alone?", description:"Testimonials are valuable because they provide social proof and reassurance to others who are considering engaging with the same product, service, or event."},
-    { id:4, title:"Are you available for collaboration?", description:"Testimonials are valuable because they provide social proof and reassurance to others who are considering engaging with the same product, service, or event."},
-    { id:5, title:"How long does a project take to complete?", description:"Testimonials are valuable because they provide social proof and reassurance to others who are considering engaging with the same product, service, or event."},
-    { id:6, title:"How long does a project take to complete?", description:"Testimonials are valuable because they provide social proof and reassurance to others who are considering engaging with the same product, service, or event."},
-    { id:7, title:"How long does a project take to complete?", description:"Testimonials are valuable because they provide social proof and reassurance to others who are considering engaging with the same product, service, or event."},
-    { id:8, title:"How long does a project take to complete?", description:"Testimonials are valuable because they provide social proof and reassurance to others who are considering engaging with the same product, service, or event."},
-]
+export const data = [
+    { id: 1, title: "What factors influence the cost of a website?", description: "The cost of a website depends on various factors such as its complexity, features required, design customization, and additional services like SEO or maintenance packages." },
+    { id: 2, title: "How do you ensure timely completion of projects?", description: "I follow a structured project management approach, setting clear timelines and milestones. Regular communication with clients helps in addressing any issues promptly and ensuring timely delivery of projects." },
+    { id: 3, title: "Do you work independently or have a team?", description: "I primarily work independently, but for larger projects or specific requirements, I collaborate with a network of skilled professionals to ensure quality outcomes." },
+    { id: 4, title: "What types of collaborations are you open to?", description: "I'm open to collaborations with other web developers, designers, marketers, or businesses seeking to enhance their online presence. Feel free to reach out to discuss potential collaborations!" },
+    { id: 5, title: "How do you handle project revisions and feedback?", description: "I value client feedback and ensure that their input is incorporated throughout the project. Revisions are addressed promptly, and I strive to achieve the desired outcome while maintaining project timelines." },
+    { id: 6, title: "What is your approach to website design and development?", description: "My approach to website design and development involves understanding the client's objectives, target audience, and brand identity to create custom solutions that resonate with their vision and goals." },
+    { id: 7, title: "How do you ensure website security and data protection?", description: "I implement robust security measures such as SSL certificates, regular software updates, and secure hosting to safeguard websites against potential threats. Additionally, I adhere to data protection regulations to ensure the privacy of user information." },
+    { id: 8, title: "How do you handle website maintenance and updates?", description: "I offer ongoing maintenance packages to ensure websites remain secure, functional, and up-to-date with the latest technologies. Regular updates, backups, and performance optimization are part of my maintenance services." },
+  ];
+  

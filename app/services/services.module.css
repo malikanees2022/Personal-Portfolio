@@ -37,9 +37,16 @@
 .service p{
     opacity: 0.85;
 }
+.skillbox{
+    margin: 8rem 4rem;
+}
 
 @media screen  and (max-width:600px){
     .container{
         gap: 1.2rem;
+    }
+    .skillbox{
+        margin: 1rem;
+        margin-top: 4rem;
     }
 }

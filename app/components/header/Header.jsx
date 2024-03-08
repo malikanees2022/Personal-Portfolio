@@ -11,8 +11,8 @@ const Header = () => {
   return (
     <header className={`container ${styles.header}`}>
       <div className={styles.headerLeft}>
-        <h1>Get your business online the right way!</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At distinctio sint aliquam accusantium officia, eius ducimus sunt dolorem optio id.</p>
+        <h1>Code & Creativity: Building Bridges Between Vision and Reality</h1>
+        <p>Passionate web developer with expertise in MERN stack. <br /> Detail-oriented problem solver with strong UI/UX skills. Effective communicator and team player. Committed to delivering high-quality work. Excited to contribute to innovative projects.</p>
         <div className={styles.headerCta}>
             <Link href={"/portfolio"} className='btn'>Projects</Link>
             <Link href={"/contact"} className='btn primary'>Contact me</Link>

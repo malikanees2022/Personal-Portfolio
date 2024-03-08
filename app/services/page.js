@@ -3,6 +3,7 @@ import styles from './services.module.css'
 import SectionHeader from '../components/section-header/SectionHeader'
 import { data } from './servicesData'
 import Card from '../components/card/Card'
+import Skills from '../components/skills/Skills'
 
 const page = () => {
   return (
@@ -16,6 +17,9 @@ const page = () => {
         <p>{description}</p>
       </Card>
     ))}
+      </div>
+      <div className={styles.skillbox}>
+        <Skills/>
       </div>
     </section>
   )

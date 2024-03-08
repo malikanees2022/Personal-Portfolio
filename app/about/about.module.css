@@ -12,6 +12,9 @@
     opacity: 0;
     animation: identifier 2s ease forwards;
 }
+.educationBox{
+    margin: 8rem 4rem ;
+}
 
 @keyframes identifier{
     to{
@@ -31,5 +34,9 @@
 .container{
     grid-template-columns: 1fr;
     gap: 2.5rem;
+}
+.educationBox{
+    margin: 1rem ;
+    margin-top: 4rem;
 }
 }

@@ -6,6 +6,20 @@
     opacity: 0;
     animation: identifier 1s ease-in forwards;
 }
+.formBox{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;  
+}
+
+
 
 @keyframes identifier {
     to{

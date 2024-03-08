@@ -4,6 +4,8 @@ import { MdOutlineEmail } from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 import SectionHeader from '../components/section-header/SectionHeader'
+import ContactDetails from '../components/contactdetails/ContactDetails'
+import ContactForm from '../components/contactform/ContactForm'
 
 const page = () => {
   return (
@@ -19,6 +21,14 @@ const page = () => {
         <a href="https://wa.me/+923170508024" className={styles.contactOption} target='_blank' rel='noopener noreferrer'>
           <BsWhatsapp className={styles.contactIcon}/>
         </a>
+      </div>
+
+      <div className={styles.formBox}>
+        <ContactForm/>
+      </div>
+
+      <div className={styles.contactBox}>
+      <ContactDetails/>
       </div>
     </section>
   )
