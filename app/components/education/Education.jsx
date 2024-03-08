@@ -17,16 +17,16 @@ const Education = () => {
                   <div className="year">
                     <i className="bx bxs-calender"></i>2019 - 2023
                   </div>
-                  <h3>`Bachelor's Degree - AUST`</h3>
+                  <h3>Bachelor's Degree - AUST</h3>
                   <p>
-                    `I earned a Bachelor's degree in Information Technology from
+                    I earned a Bachelor's degree in Information Technology from{" "}
                     <b>Abbottabad University of Science and Technology</b>,
                     achieving a CGPA of <b>3.7</b> out of 4. My education
                     equipped me with a comprehensive understanding of technology
                     concepts and applications, preparing me to tackle real-world
                     challenges in the field. Alongside my academic pursuits, I
                     actively participated in sports activities, fostering
-                    teamwork, discipline, and a healthy lifestyle.`
+                    teamwork, discipline, and a healthy lifestyle.
                   </p>
                 </div>
               </div>
@@ -39,10 +39,10 @@ const Education = () => {
                   <h3>F.Sc - GPGC No.1</h3>
                   <p>
                     I successfully completed my F.Sc. in Pre-Engineering from{" "}
-                    <b>`Government Post Graduate College No.1 Abbottabad</b> with
+                    <b>Government Post Graduate College No.1 Abbottabad</b> with
                     flying colors, achieving an 'A' grade. This achievement
                     highlights my commitment to academic excellence and fuels my
-                    passion for pursuing a career in engineering.`
+                    passion for pursuing a career in engineering.
                   </p>
                 </div>
               </div>
