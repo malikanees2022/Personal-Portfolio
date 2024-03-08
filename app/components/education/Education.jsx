@@ -17,9 +17,9 @@ const Education = () => {
                   <div className="year">
                     <i className="bx bxs-calender"></i>2019 - 2023
                   </div>
-                  <h3>Bachelor's Degree - AUST</h3>
+                  <h3>Bachelor&apos;s Degree - AUST</h3>
                   <p>
-                    I earned a Bachelor's degree in Information Technology from{" "}
+                    I earned a Bachelor&apos;s degree in Information Technology from{" "}
                     <b>Abbottabad University of Science and Technology</b>,
                     achieving a CGPA of <b>3.7</b> out of 4. My education
                     equipped me with a comprehensive understanding of technology
@@ -40,7 +40,7 @@ const Education = () => {
                   <p>
                     I successfully completed my F.Sc. in Pre-Engineering from{" "}
                     <b>Government Post Graduate College No.1 Abbottabad</b> with
-                    flying colors, achieving an 'A' grade. This achievement
+                    flying colors, achieving an &apos;A&apos; grade. This achievement
                     highlights my commitment to academic excellence and fuels my
                     passion for pursuing a career in engineering.
                   </p>
@@ -56,7 +56,7 @@ const Education = () => {
                   <p>
                     I completed my Matriculation in the Science stream at{" "}
                     <b>Government High School No.3 Abbottabad</b>, obtaining an
-                    outstanding <b>A+</b> grade. This achievement underscores my
+                    outstanding &apos;A+&apos; grade. This achievement underscores my
                     commitment to academic excellence and paves the way for my
                     aspirations in higher education and beyond. Additionally, I
                     actively participated in sports activities, honing my
