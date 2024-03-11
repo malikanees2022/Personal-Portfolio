@@ -13,6 +13,10 @@ import cableco from '../assets/cableco.png'
 import cableco2 from '../assets/cableco2.png'
 import portfolio from '../assets/portfolio.png'
 import portfolio2 from '../assets/portfolio2.png'
+import flowers from '../assets/flowers.png'
+import flowers2 from '../assets/flowers2.png'
+import barber from '../assets/barber.png'
+import barber2 from '../assets/barber2.png'
 
 export const data=[
     {
@@ -95,5 +99,25 @@ export const data=[
         desc: "Discover my personal portfolio website, meticulously crafted using HTML, CSS, and JavaScript. Immerse yourself in its fully responsive design, adorned with captivating animations and seamless transition effects. Explore an array of interactive elements and dynamic layouts tailored to deliver an engaging user experience.",
         demo:"https://simple-portfolio-anees.netlify.app/",
         github:"https://github.com/malikanees2022/simple-portfolio.git"
+    },
+    {
+        id:9,
+        category:"Basic Frontend",
+        image:flowers,
+        image2:flowers2,
+        title:"Fresh Flowers",
+        desc: "Welcome to Fresh Flowers, a charming online flower shop website crafted with HTML and CSS, designed to be fully responsive. Immerse yourself in its delightful floral-themed interface, adorned with captivating animations and seamless transition effects. Explore a wide range of interactive features and dynamic layouts tailored to provide an engaging shopping experience.",
+        demo:"https://fresh-flowers-anees.vercel.app/",
+        github:"https://github.com/malikanees2022/Fresh-Flowers.git"
+    },
+    {
+        id:10,
+        category:"Basic Frontend",
+        image:barber,
+        image2:barber2,
+        title:"Barber Service",
+        desc: "Welcome to Barber Service, your premier destination for grooming excellence. Step into a world of sophistication and style with our meticulously designed website, crafted using HTML, CSS, and JavaScript. Experience the epitome of professionalism and luxury with our fully responsive interface, complete with dynamic features and seamless navigation. Elevate your grooming routine with Barber Service.",
+        demo:"https://hair-styling.netlify.app/",
+        github:"https://github.com/malikanees2022/Barber-Shop.git"
     },
 ]
