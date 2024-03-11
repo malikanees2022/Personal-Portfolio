@@ -14,7 +14,7 @@
     gap: 5rem;
 }
 .skills-row .skills-column{
-    flex: 1 1 40rem;
+    flex: 1 1 20rem;
 }
 .skills-column .title{
     font-size: 2rem;
