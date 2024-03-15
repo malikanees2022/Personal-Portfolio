@@ -17,6 +17,8 @@ import flowers from '../assets/flowers.png'
 import flowers2 from '../assets/flowers2.png'
 import barber from '../assets/barber.png'
 import barber2 from '../assets/barber2.png'
+import solidgym from '../assets/solidgym.png'
+import solidgym2 from '../assets/solidgym2.png'
 
 export const data=[
     {
@@ -119,5 +121,15 @@ export const data=[
         desc: "Welcome to Barber Service, your premier destination for grooming excellence. Step into a world of sophistication and style with our meticulously designed website, crafted using HTML, CSS, and JavaScript. Experience the epitome of professionalism and luxury with our fully responsive interface, complete with dynamic features and seamless navigation. Elevate your grooming routine with Barber Service.",
         demo:"https://hair-styling.netlify.app/",
         github:"https://github.com/malikanees2022/Barber-Shop.git"
+    },
+    {
+        id:11,
+        category:"React",
+        image:solidgym,
+        image2:solidgym2,
+        title:"Solid Gym",
+        desc: "Welcome to Solid Gym, where we redefine fitness with our cutting-edge website design crafted in React. Immerse yourself in a world of dynamic animations, sleek card layouts, and seamless responsiveness. Experience the epitome of professionalism and luxury as you navigate through our site, designed to elevate your gym experience. Get ready to embark on a journey of fitness excellence with Solid Gym.",
+        demo:"https://solid-gym.vercel.app/",
+        github:"https://github.com/malikanees2022/solid-gym.git"
     },
 ]
