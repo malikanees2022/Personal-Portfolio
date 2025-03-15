@@ -43,6 +43,10 @@ const Skills = () => {
                         <div class="bar"><span></span></div>
                     </div>
                     <div class="progress">
+                        <h3>SCSS <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
                         <h3>Material UL <span>90%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>

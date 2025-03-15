@@ -19,6 +19,8 @@ import barber from '../assets/barber.png'
 import barber2 from '../assets/barber2.png'
 import solidgym from '../assets/solidgym.png'
 import solidgym2 from '../assets/solidgym2.png'
+import rebel1 from '../assets/pic33.png'
+import rebel2 from '../assets/pic44.png'
 
 export const data=[
     {
@@ -54,7 +56,7 @@ export const data=[
     },
     {
         id:4,
-        category:"Fullstack",
+        category:"Full Stack",
         image:Image4,
         image2:Image4,
         title:"Project Title one (Backend)",
@@ -131,5 +133,25 @@ export const data=[
         desc: "Welcome to Solid Gym, where we redefine fitness with our cutting-edge website design crafted in React. Immerse yourself in a world of dynamic animations, sleek card layouts, and seamless responsiveness. Experience the epitome of professionalism and luxury as you navigate through our site, designed to elevate your gym experience. Get ready to embark on a journey of fitness excellence with Solid Gym.",
         demo:"https://solid-gym.vercel.app/",
         github:"https://github.com/malikanees2022/solid-gym.git"
+    },
+    {
+        id:12,
+        category:"Full Stack",
+        image:rebel1,
+        image2:rebel2,
+        title:"REBELDOGS: The First Movie Tied to a Crypto Coin",
+        desc: "A groundbreaking Hollywood project where meme coins meet mainstream entertainment! REBELDOGS is the first-ever movie featuring KOL-talking dogs, each representing a meme coin. With five dog coins launching to support dog shelters, we’re building a global community before the 2025 premiere.As a Front-End Developer, I contributed to designing a responsive and interactive user experience for the project, ensuring a seamless interface that engages both crypto enthusiasts and movie fans.",
+        demo:"https://rebel-doge.vercel.app/",
+        github:"https://github.com/Octaloop-Technologies/rebel-doge"
+    },
+    {
+        id:13,
+        category:"Full Stack",
+        image:portfolio,
+        image2:portfolio2,
+        title:"BUYCEX Crypto Exchange",
+        desc: "Proud to have contributed to BUYCEX, a cutting-edge crypto exchange! 🚀 As a front-end developer, I collaborated with the team to build a responsive and interactive trading platform, ensuring a seamless user experience. Excited for the impact BUYCEX will have on the crypto world! 🌟",
+        demo:"https://buycex.vercel.app/",
+        github:"https://github.com/Octaloop-Technologies/rebel-doge"
     },
 ]

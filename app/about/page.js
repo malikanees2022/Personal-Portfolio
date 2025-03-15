@@ -20,7 +20,7 @@ const Page = () => {
           <p>I bring a collaborative approach to every project, working closely with clients to understand their needs and goals. Whether it&apos;s building a dynamic web application or designing a sleek website, I&apos;m committed to delivering high-quality work that exceeds expectations.</p>
           <p>What sets me apart is my dedication to continuous improvement. I stay updated with the latest technologies and industry trends, ensuring that my skills are always sharp and my solutions are cutting-edge. Let&apos;s collaborate and bring your ideas to life!</p>
 
-          <a href="https://drive.google.com/file/d/14CXvaihX0w5h79iDKLcRC2YsSQS7weDr/view" className={`btn primary ${styles.aboutCta}`} target='_blank'>Download CV</a>
+          <a href="https://drive.google.com/file/d/1oiA3ysZyuYpJVgey_S0xC3lXf6gH9Hzf/view" className={`btn primary ${styles.aboutCta}`} target='_blank'>Download CV</a>
         </article>
       </div>
       <div className={styles.educationBox}>

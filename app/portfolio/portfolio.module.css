@@ -22,7 +22,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(18rem, 1fr));
     gap: 3rem;
-    align-items: center;
+    /* align-items: center; */
     padding:0 10rem;
 }
 .project{

@@ -71,10 +71,42 @@ const Education = () => {
           <div className="education-column">
             <h3 className="title">Experience</h3>
             <div className="education-box">
+            <div className="education-content">
+                <div className="content">
+                  <div className="year">
+                    <i className="bx bxs-calender"></i>September 2024 - Present
+                  </div>
+                  <h3>Front-End Developer - Octaloop Technologies</h3>
+                  <p>
+                  Developed and maintained Web3 and blockchain-based trading platforms with React and
+Next.js, delivering smooth and responsive user experiences.
+Integrated cryptocurrency APIs for real-time data, transaction handling, and market
+insights.
+Designed intuitive, user-friendly trading interfaces, enhancing navigation and functionality
+for seamless interaction.
+                  </p>
+                </div>
+              </div>
+            <div className="education-content">
+                <div className="content">
+                  <div className="year">
+                    <i className="bx bxs-calender"></i>May 2024 - August 2024
+                  </div>
+                  <h3>React JS Developer - COSVM Labs</h3>
+                  <p>
+                  Developed and maintained crypto trading interfaces similar to Binance and Bybit using
+React.js, ensuring a seamless user experience.
+Integrated various cryptocurrency APIs to provide real-time data, transaction processing,
+and market analysis within the platform.
+Designed and optimized trading layouts to enhance user interaction, ensuring intuitive
+navigation and efficient functionality.
+                  </p>
+                </div>
+              </div>
               <div className="education-content">
                 <div className="content">
                   <div className="year">
-                    <i className="bx bxs-calender"></i>November 2023 - Present
+                    <i className="bx bxs-calender"></i>April 2023 - May 2024
                   </div>
                   <h3>Front-End Developer - Geeks Hub</h3>
                   <p>
@@ -86,10 +118,10 @@ const Education = () => {
                 </div>
               </div>
 
-              <div className="education-content">
+              {/* <div className="education-content">
                 <div className="content">
                   <div className="year">
-                    <i className="bx bxs-calender"></i>July 2023 - October 2023
+                    <i className="bx bxs-calender"></i>April 2023 - November 2023
                   </div>
                   <h3>React.js Developer - Stem Wizards Academia</h3>
 
@@ -100,28 +132,15 @@ const Education = () => {
                     optimization, and seamless graphics integration.
                   </p>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <i className="bx bxs-calender"></i>April 2023 - June 2023
-                  </div>
-                  <h3>Front-End Developer - Created Opportunities</h3>
-                  <p>
-                    Skilled in HTML,CSS,Javascript and Bootstrap, specializing
-                    in user-friendly web development. Collaborated across
-                    teamsto create admin, vendor, and customer interfaces,
-                    optimizing user experiences.
-                  </p>
-                </div>
-              </div>
+           
               <div className="education-content">
                 <div className="content">
                   <div className="year">
                     <i className="bx bxs-calender"></i>October 2022 - March 2023
                   </div>
-                  <h3>Junior Web Developer - Code Band</h3>
+                  <h3>Front End Developer Intern - Code Band</h3>
                   <p>
                     Developed websites using JavaScript, and HTML. Enhanced user
                     experience and accomplish webpage objectives by creating
