@@ -28,14 +28,14 @@ const Projects = ({ projects }) => {
               >
                 Demo
               </Link>
-              <Link
+              {/* <Link
                 href={github}
                 className={`${styles.btn} ${styles.primary}`}
                 target="_blank"
                 rel="nopopener noreferrer"
               >
                 Github
-              </Link>
+              </Link> */}
             </div>
           </div>
          
