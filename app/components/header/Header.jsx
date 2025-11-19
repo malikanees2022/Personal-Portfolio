@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './header.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import Image1 from '../../assets/1.png'
-import Image2 from '../../assets/2.png'
-import Image3 from '../../assets/3.png'
-import Image4 from '../../assets/4.png'
+import Image1 from '../../assets/03.png'
+import Image2 from '../../assets/06.png'
+import Image3 from '../../assets/07.png'
+import Image4 from '../../assets/04.png'
 
 const Header = () => {
   return (

@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './about.module.css';
 import SectionHeader from '../components/section-header/SectionHeader';
 import Image from 'next/image';
-import AboutImage from '../assets/about2.png';
+import AboutImage from '../assets/13.png';
 import Education from '../components/education/Education';
 
 const Page = () => {
