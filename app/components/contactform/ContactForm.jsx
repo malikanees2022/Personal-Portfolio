@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import "./form.css"
+import toast from 'react-hot-toast';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -11,6 +12,7 @@ const ContactForm = () => {
     subject: '',
     message: ''
   });
+   const [loading, setLoading] = useState(false);
 
   const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
@@ -18,23 +20,24 @@ const ContactForm = () => {
 
   const sendMail = (event) => {
     event.preventDefault(); // Prevent form submission
-    
-    const { name, email, phone, subject, message } = formData;
-
-    const templateParams = {
-      name: name,
-      email: email,
-      phone: phone,
-      subject: subject,
-      message: message,
-    };
+   setLoading(true);
 
     emailjs.sendForm("service_3oroltp", "template_em09fcj", event.target, "1GnXK_62bhrugUB_l")
-      .then((response) => {
-        alert("Email Sent!"); // Show success message
+      .then(() => {
+        toast.success("Message sent successfully! 🎉"); 
+           setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+
+        setLoading(false);
       })
       .catch((error) => {
-        console.error("Error sending email:", error); // Log error if any
+        toast.error("Error sending email:", error); // Log error if any
+        setLoading(false);
       });
   }
 
@@ -67,7 +70,7 @@ const ContactForm = () => {
           <span className="focus"></span>
         </div>
         <div className="btn-box btns">
-          <button type="submit" className="btn">Submit</button>
+          <button type="submit" className="btn" disabled={loading}> {loading ? "Sending..." : "Submit"}</button>
         </div>
       </form>
     </section>
