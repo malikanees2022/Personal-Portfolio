@@ -15,12 +15,29 @@ const Page = () => {
           <Image src={AboutImage} alt='' />
         </article>
         <article className={styles.aboutContent}>
-          <h4>Hi, I&apos;m Anees-ur-rehman, a Web Developer</h4>
-          <p>Hello there! I&apos;m Anees, a passionate web developer with expertise in the MERN stack. I thrive on turning ideas into reality through elegant and efficient code. With a keen eye for detail and a knack for problem-solving, I craft user-friendly interfaces that deliver exceptional experiences.</p>
-          <p>I bring a collaborative approach to every project, working closely with clients to understand their needs and goals. Whether it&apos;s building a dynamic web application or designing a sleek website, I&apos;m committed to delivering high-quality work that exceeds expectations.</p>
-          <p>What sets me apart is my dedication to continuous improvement. I stay updated with the latest technologies and industry trends, ensuring that my skills are always sharp and my solutions are cutting-edge. Let&apos;s collaborate and bring your ideas to life!</p>
-
-          <a href="https://drive.google.com/file/d/1oiA3ysZyuYpJVgey_S0xC3lXf6gH9Hzf/view" className={`btn primary ${styles.aboutCta}`} target='_blank'>Download CV</a>
+  <h4>Hi, I&apos;m Anees-ur-Rehman, a Software Engineer</h4>
+  <p>
+    Hello! I&apos;m Anees, an experienced Software Engineer specializing in
+    React.js and Next.js, with a strong focus on building fast, scalable, and
+    intuitive web applications. I enjoy transforming complex ideas into
+    polished digital experiences through clean code, thoughtful UI/UX design,
+    and performance-driven development.
+  </p>
+  <p>
+    I have hands-on experience working on Web3 and blockchain-based platforms,
+    developing high-performance trading interfaces, and integrating real-time
+    APIs. Alongside frontend expertise, I&apos;m expanding into full-stack
+    development using the MERN stack and Python/Django to deliver secure,
+    end-to-end solutions.
+  </p>
+  <p>
+    I take a collaborative, detail-oriented approach to every project—working
+    closely with teams and clients to understand goals and deliver reliable,
+    maintainable products. Committed to continuous learning and modern best
+    practices, I aim to build digital solutions that combine creativity,
+    technical precision, and real business impact.
+  </p>
+          <a href="https://drive.google.com/file/d/1QHQ2wrbw62yT-KYoXzGgSN2tQU2UMKQO/view" className={`btn primary ${styles.aboutCta}`} target='_blank'>Download CV</a>
         </article>
       </div>
       <div className={styles.educationBox}>

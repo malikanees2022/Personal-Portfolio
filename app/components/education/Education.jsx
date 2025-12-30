@@ -30,127 +30,106 @@ const Education = () => {
                   </p>
                 </div>
               </div>
-
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <i className="bx bxs-calender"></i>2017 - 2019
-                  </div>
-                  <h3>F.Sc - GPGC No.1</h3>
-                  <p>
-                    I successfully completed my F.Sc. in Pre-Engineering from{" "}
-                    <b>Government Post Graduate College No.1 Abbottabad</b> with
-                    flying colors, achieving an &apos;A&apos; grade. This achievement
-                    highlights my commitment to academic excellence and fuels my
-                    passion for pursuing a career in engineering.
-                  </p>
+            <div className="education-content">
+              <div className="content">
+                <div className="year">
+                  <i className="bx bxs-calender"></i>2022
                 </div>
+                <h3>Web Development Certification (6 Months)</h3>
+                <p>
+                  I successfully completed a 6-month intensive Web Development training
+                  program conducted by the{" "}
+                  <b>Punjab Software Export Board (PSEB)</b>. The program focused on modern
+                  frontend and full-stack development, covering HTML, CSS, JavaScript,
+                  React.js, and backend fundamentals. This hands-on training strengthened my
+                  practical skills in building responsive, real-world web applications and
+                  laid a solid foundation for my professional career in software
+                  development.
+                </p>
               </div>
-
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <i className="bx bxs-calender"></i>2016 - 2017
-                  </div>
-                  <h3>Matriculation - GHS No.3</h3>
-                  <p>
-                    I completed my Matriculation in the Science stream at{" "}
-                    <b>Government High School No.3 Abbottabad</b>, obtaining an
-                    outstanding &apos;A+&apos; grade. This achievement underscores my
-                    commitment to academic excellence and paves the way for my
-                    aspirations in higher education and beyond. Additionally, I
-                    actively participated in sports activities, honing my
-                    teamwork, leadership, and discipline skills, which
-                    complemented my academic achievements.
-                  </p>
-                </div>
-              </div>
+            </div>
             </div>
           </div>
 
-          <div className="education-column">
-            <h3 className="title">Experience</h3>
-            <div className="education-box">
-            <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <i className="bx bxs-calender"></i>September 2024 - Present
-                  </div>
-                  <h3>Front-End Developer - Octaloop Technologies</h3>
-                  <p>
-                  Developed and maintained Web3 and blockchain-based trading platforms with React and
-Next.js, delivering smooth and responsive user experiences.
-Integrated cryptocurrency APIs for real-time data, transaction handling, and market
-insights.
-Designed intuitive, user-friendly trading interfaces, enhancing navigation and functionality
-for seamless interaction.
-                  </p>
-                </div>
-              </div>
-            <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <i className="bx bxs-calender"></i>May 2024 - August 2024
-                  </div>
-                  <h3>React JS Developer - COSVM Labs</h3>
-                  <p>
-                  Developed and maintained crypto trading interfaces similar to Binance and Bybit using
-React.js, ensuring a seamless user experience.
-Integrated various cryptocurrency APIs to provide real-time data, transaction processing,
-and market analysis within the platform.
-Designed and optimized trading layouts to enhance user interaction, ensuring intuitive
-navigation and efficient functionality.
-                  </p>
-                </div>
-              </div>
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <i className="bx bxs-calender"></i>April 2023 - May 2024
-                  </div>
-                  <h3>Front-End Developer - Geeks Hub</h3>
-                  <p>
-                    Proficient in the artistry of web development, with
-                    expertise in HTML, CSS, JavaScript, React.js, Bootstrap, and
-                    Tailwind CSS - crafting immersive and user-friendly digital
-                    experiences.
-                  </p>
-                </div>
-              </div>
+        <div className="education-column">
+  <h3 className="title">Experience</h3>
+  <div className="education-box">
 
-              {/* <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <i className="bx bxs-calender"></i>April 2023 - November 2023
-                  </div>
-                  <h3>React.js Developer - Stem Wizards Academia</h3>
+    {/* Software Engineer – Bitlogix */}
+    <div className="education-content">
+      <div className="content">
+        <div className="year">
+          <i className="bx bxs-calender"></i>May 2025 - Present
+        </div>
+        <h3>Software Engineer - Bitlogix</h3>
+        <p>
+          Led the development of a Legal SaaS platform for law firms using
+          Python (Django) and React.js, architected with multi-tenancy to
+          efficiently manage data across multiple client organizations.
+          Delivered core modules including case management, invoicing,
+          calendar scheduling, tasks, and time-tracking while prioritizing
+          scalability, security, maintainability, and clean code standards.
+        </p>
+      </div>
+    </div>
 
-                  <p>
-                    Developed websites using React.js, and Tailwind. Optimized
-                    user experience and achieved webpage goals through the
-                    development of site structure, navigation, page
-                    optimization, and seamless graphics integration.
-                  </p>
-                </div>
-              </div> */}
+    {/* Front-End Developer – Octaloop Technologies */}
+    <div className="education-content">
+      <div className="content">
+        <div className="year">
+          <i className="bx bxs-calender"></i>September 2024 - May 2025
+        </div>
+        <h3>Front-End Developer - Octaloop Technologies</h3>
+        <p>
+          Developed and maintained sophisticated Web3 and blockchain-based
+          trading platforms using React.js and Next.js, delivering fast,
+          responsive, and intuitive user experiences. Integrated multiple
+          cryptocurrency APIs to handle real-time data feeds, transactions,
+          and market insights, while designing highly user-friendly trading
+          interfaces to enhance navigation and overall platform usability.
+        </p>
+      </div>
+    </div>
 
-           
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <i className="bx bxs-calender"></i>October 2022 - March 2023
-                  </div>
-                  <h3>Front End Developer Intern - Code Band</h3>
-                  <p>
-                    Developed websites using JavaScript, and HTML. Enhanced user
-                    experience and accomplish webpage objectives by creating
-                    site structure, navigation, page optimization, and graphics
-                    integration.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+    {/* Front-End Developer – Cosvm Labs */}
+    <div className="education-content">
+      <div className="content">
+        <div className="year">
+          <i className="bx bxs-calender"></i>February 2024 - September 2024
+        </div>
+        <h3>Front-End Developer - Cosvm Labs</h3>
+        <p>
+          Contributed as a primary Frontend Developer for BuyCex, a major
+          crypto trading platform, building responsive and scalable user
+          interfaces using React.js and Tailwind CSS. Developed key
+          user-facing features including API integrations, crypto card
+          functionality, and CMS implementations, while introducing
+          animations, charting libraries, and optimized layouts to enhance
+          engagement and performance.
+        </p>
+      </div>
+    </div>
+
+    {/* Front-End Developer – Geeks Hub */}
+    <div className="education-content">
+      <div className="content">
+        <div className="year">
+          <i className="bx bxs-calender"></i>October 2022 - March 2024
+        </div>
+        <h3>Front-End Developer - Geeks Hub</h3>
+        <p>
+          Built and maintained business and e-commerce web applications using
+          React.js, Next.js, and Gatsby. Improved application performance and
+          speed through code optimization and best practices, and integrated
+          Sanity and Contentful CMS to enhance content management and overall
+          user experience.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
         </div>
       </section>
     </div>

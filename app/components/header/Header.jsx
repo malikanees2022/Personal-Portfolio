@@ -12,7 +12,11 @@ const Header = () => {
     <header className={`container ${styles.header}`}>
       <div className={styles.headerLeft}>
         <h1>Code & Creativity: Building Bridges Between Vision and Reality</h1>
-        <p>Passionate web developer with expertise in MERN stack. <br /> Detail-oriented problem solver with strong UI/UX skills. Effective communicator and team player. Committed to delivering high-quality work. Excited to contribute to innovative projects.</p>
+        <p>
+        Experienced Software Engineer specializing in React.js and Next.js, focused on building fast, scalable, and intuitive web applications. 
+        Strong expertise in UI/UX design, API integration, and performance optimization. 
+        Expanding into full-stack development with the MERN stack and Python/Django to deliver end-to-end, high-quality digital solutions that blend creativity with technical precision.
+        </p>
         <div className={styles.headerCta}>
             <Link href={"/portfolio"} className='btn'>Projects</Link>
             <Link href={"/contact"} className='btn primary'>Contact me</Link>

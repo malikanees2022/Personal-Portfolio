@@ -37,6 +37,26 @@
 .service p{
     opacity: 0.85;
 }
+
+.point {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  width: 100%;
+  margin-top: 0.6rem;
+  text-align: left;
+}
+
+.point p {
+  opacity: 0.85;
+}
+.checkIcon {
+  color: var(--color-primary);
+  font-size: 1rem;
+  margin-top: 0.2rem;
+}
+
+
 .skillbox{
     margin: 8rem 4rem;
 }
